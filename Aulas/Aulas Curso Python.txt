@@ -1,0 +1,32 @@
+Aulas Curso Python
+
+Aula 1 - Comentários e Docstrings em Python
+Aula 2 - Função print
+Aula 3 - Tipos de dados
+Aula 4 - Tipos int e float
+Aula 5 - Tipo de dado bool (boolean)
+Aula 6 - Aula sobre conversão de tipos
+Aula 7 - Aula sobre variáveis
+Aula 8 - EXERCÍCIO sobre variáveis
+Aula 9 - Operadores Aritméticos
+Aula 10 - Concatenação
+Aula 11 - Prioridade dos operadores aritméticos
+Aula 12 - EXERCÍCIO - Cálculo IMC
+Aula 13 - f-strings
+Aula 14 - format
+Aula 15 - input
+Aula 16 - if, elif, else
+Aula 17 - if, elif, else
+Aula 18 - Debug
+Aula 19 - Operadores Relacionais
+Aula 20 - EXERCÍCIO: Maior valor
+Aula 21 - Operador AND
+Aula 22 - Operador OR
+Aula 23 - Operador NOT
+Aula 24 - Operadores IN e NOT IN
+Aula 25 - Interpolação
+Aula 26 - f-strings
+Aula 27 - 
+Aula 20 - 
+Aula 29 - 
+
