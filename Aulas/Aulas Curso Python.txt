@@ -26,7 +26,8 @@ Aula 23 - Operador NOT
 Aula 24 - Operadores IN e NOT IN
 Aula 25 - Interpolação
 Aula 26 - f-strings
-Aula 27 - 
-Aula 20 - 
-Aula 29 - 
+Aula 27 - Fatiamento de strings e função len
+Aula 28 - EXERCÍCIO
+Aula 29 - Try / Except
+Aula 30 - Variáveis, constantes e complexidade do código
 
