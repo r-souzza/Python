@@ -7,19 +7,19 @@ inteiro, informe que não é um número inteiro.
 
 """
 
-num = input("Digite um número inteiro: ")
+# num = input("Digite um número inteiro: ")
 
-if num.isdigit(): # Checa se o valor digitado é um número/dígito
-    num = int(num)
+# if num.isdigit(): # Checa se o valor digitado é um número/dígito
+#     num = int(num)
 
-    if num % 2 == 0:
-        print(f'o número {num} é par')
+#     if num % 2 == 0:
+#         print(f'o número {num} é par')
 
-    else:
-        print(f'O número {num} é ímpar.')
+#     else:
+#         print(f'O número {num} é ímpar.')
 
-else:
-    print('Você não digitou um número inteiro.')
+# else:
+#     print('Você não digitou um número inteiro.')
 
 
 """
@@ -29,16 +29,25 @@ Ex: Bom dia 0 - 11, Boa tarde 12 - 17, Boa noite 18 - 23
 
 """
 
-# hora = int(input("Digite a hora atual: "))
+hora = input("Digite a hora atual em números inteiros: ")
 
-# if hora >= 0 and hora <= 11:
-#     print('Bom dia!')
+if hora.isdigit():
+    hora = int(hora)
 
-# elif hora >= 12 and hora <=17:
-#     print('Boa tarde!')
+    if hora >= 0 and hora <= 11:
+        print('Bom dia!')
 
-# elif hora >=18 and hora <=23:
-#     print('Boa noite!')
+    elif hora >= 12 and hora <=17:
+        print('Boa tarde!')
+
+    elif hora >=18 and hora <=23:
+        print('Boa noite!')
+
+    else:
+        print('Não conheço a hora informada.')
+
+else:
+    print('Você não digitou um número inteiro.')
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou menos escreva "Seu nome é curto";
@@ -47,13 +56,21 @@ se tiver entre 5 e 6 letras, escreva "Seu nome é normal"; maior que 6 escreva "
 """
 
 # nome = input("Digite seu primeiro nome: ")
+# tamanho_nome = len(nome)
 
-# if len(nome) <= 4:
-#     print("Seu nome é curto.")
+# if tamanho_nome > 1:
 
-# elif len(nome) == 5 or len(nome) == 6:
-#     print("Seu nome é normal.")
+#     if len(nome) <= 4:
+#         print("Seu nome é curto.")
 
-# elif len(nome) > 6:
-#     print('Seu nome é muito grande.')
+#     elif len(nome) == 5 or len(nome) == 6:
+#         print("Seu nome é normal.")
+
+#     else:
+#         print('Seu nome é muito grande.')
+
+# else:
+#     print('Digite mais de uma letra.')
+
+
 
